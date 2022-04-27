@@ -1,0 +1,15 @@
+.menuItem .styledLinkContent {
+    color:#fff;
+}
+
+.styledLinkContent:hover {
+    color: #ccadff;
+}
+
+.submenu .styledLinkContent {
+    color:#3f4042;
+}
+
+.submenu .styledLinkContent:hover {
+    color: #ccadff;
+}

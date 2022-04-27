@@ -4,80 +4,95 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-daas",
+      "menu-item#category-home"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-daas": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-daas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/daas-and-vdi/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "DaaS and VDI",
+        "text": "DaaS and VDI"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-daas"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-daas": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-daas"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-daas": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-daas-daas",
+      "menu-item#category-daas-vdi",
+      "menu-item#category-daas-analytics",
+      "menu-item#category-daas-workspace"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-daas-daas": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-daas-daas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/citrix-daas/p/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Citrix DaaS",
+        "text": "Citrix DaaS"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-daas-vdi": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-daas-vdi",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/citrix-vdi/p",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Citrix Virtual Apps and Desktops",
+        "text": "Citrix Virtual Apps and Desktops"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-daas-analytics": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-daas-analytics",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/analytics-for-performance/p/",
+        "noFollow": false,
+        "tagTitle": "Citrix Analytics for Performance",
+        "text": "Citrix Analytics for Performance"
+      }
+    }
+  },
+  "menu-item#category-daas-workspace": {
+    "props": {
+      "id": "menu-item-category-daas-workspace",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -85,8 +100,8 @@
         "type": "internal",
         "href": "/apparel---accessories/eyeglasses/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Citrix Workspace",
+        "text": "Citrix Workspace"
       }
     }
   },
@@ -98,63 +113,12 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/resources/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Resources",
+        "text": "Resources"
       }
     }
-  },
-  "menu-item#more": {
-    "props": {
-      "id": "menu-item-custom-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
-  },
-  "vtex.menu@2.x:submenu#more": {
-    "props": {
-      "width": "100%"
-    },
-    "children": [
-      "flex-layout.row#menu-more"
-    ]
-  },
-  "flex-layout.row#menu-more": {
-    "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
-    ]
-  },
-  "flex-layout.col#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
-  },
-  "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
-    ]
-  },
-  "vtex.menu@2.x:menu#more": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
-    ]
   },
   "menu-item#about-us": {
     "props": {

@@ -3,8 +3,7 @@
     "children": [
       "flex-layout.col#deals1",
       "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
+      "flex-layout.col#deals3"
     ],
     "props": {
       "blockClass": "deals"
@@ -25,7 +24,7 @@
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "98% of the Fortune 500",
       "blockClass": "deals"
     }
   },
@@ -43,7 +42,7 @@
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "Over 400,000 Customers",
       "blockClass": "deals"
     }
   },
@@ -61,25 +60,7 @@
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
-      "blockClass": "deals"
-    }
-  },
-  "flex-layout.col#deals4": {
-    "children": [
-      "image#deal4",
-      "rich-text#deal4"
-    ]
-  },
-  "image#deal4": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
-    }
-  },
-  "rich-text#deal4": {
-    "props": {
-      "text": "Exclusive deals",
+      "text": "100M users in more than 100 countries",
       "blockClass": "deals"
     }
   }
