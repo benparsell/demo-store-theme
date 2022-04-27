@@ -55,13 +55,13 @@
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
   :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    background: #452170;
+    background: #452170 !important;
   }
 }
 
 /* stick wrapper with the same color as the desktop/mobile header */
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-  background-color: #452170;
+  background-color: #452170 !important;
 }
 
 /* resize the logo for neat effect */
