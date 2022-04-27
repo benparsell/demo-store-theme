@@ -1,7 +1,7 @@
 {
   "vendor": "benparsell",
   "name": "citrix-demo-store-theme",
-  "version": "4.4.6",
+  "version": "4.5.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
